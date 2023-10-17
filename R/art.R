@@ -1,13 +1,3 @@
-#library(tidyverse)
-#library(magrittr)
-#library(numform)
-#library(scales)
-#library(rvest)
-#library(jsonlite)
-#library(httr)
-#library(lubridate)
-
-options(readr.show_col_types = FALSE)
 options(warn=-1)
 
 ## ON VIEW
