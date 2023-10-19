@@ -15,7 +15,7 @@ jobs:
             use-public-rspm: true
 
       - name: Art Pulls
-        run: Rscript R/art.R
+        run: Rscript R/daily.R
 
       - name: Commit files
         run: |
