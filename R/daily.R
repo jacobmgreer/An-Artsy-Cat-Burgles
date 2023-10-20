@@ -5,5 +5,5 @@ download.file("https://www.nga.gov/collection-search-result/jcr:content/parmain/
               paste0("nightlies/onview/",format(Sys.time(), "%Y.%m.%d"),".json"), "curl")
 
 ## GH-NGA-Objects
-download.file("https://github.com/NationalGalleryOfArt/opendata/raw/main/data/objects.csv",
+download.file("https://raw.githubusercontent.com/NationalGalleryOfArt/opendata/main/data/objects.csv",
               paste0("nightlies/gh-objects/",format(Sys.time(), "%Y.%m.%d"),".csv"), "curl")
