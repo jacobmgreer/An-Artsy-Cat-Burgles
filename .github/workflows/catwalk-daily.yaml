@@ -1,5 +1,6 @@
 name: Cat Walks About the Gallery
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 23 * * *"
 
