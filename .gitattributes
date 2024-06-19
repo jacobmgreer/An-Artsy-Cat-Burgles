@@ -1,0 +1,6 @@
+* linguist-vendored
+*.R linguist-vendored=false
+*.json linguist-generated
+*.webarchive linguist-generated
+*.csv linguist-generated
+*.html linguist-generated
