@@ -19,9 +19,7 @@ jobs:
           cache-version: 2
           extra-packages: |
             any::tidyverse
-            any::magrittr
-            any::scales
-            any::numform
+            any::jsonlite
       - name: Art Pulls
         run: Rscript R/daily.R
       - name: Commit files
