@@ -17,9 +17,13 @@ flat_art <- function(data) {
 
 dir.create("nightlies", showWarnings = FALSE)
 dir.create("nightlies/onview", showWarnings = FALSE)
-dir.create(paste("nightly/onview/", format(Sys.time(), "%Y"), showWarnings = FALSE))
 dir.create("nightlies/gh-objects", showWarnings = FALSE)
-dir.create(paste("nightly/gh-objects/", format(Sys.time(), "%Y"), showWarnings = FALSE))
+
+dir.create("RData", showWarnings = FALSE)
+dir.create("RData/gh-objects", showWarnings = FALSE)
+dir.create(paste("RData/gh-objects/", format(Sys.time(), "%Y"), showWarnings = FALSE))
+dir.create("RData/onview", showWarnings = FALSE)
+dir.create(paste("RData/onview/", format(Sys.time(), "%Y"), showWarnings = FALSE))
 
 ## ON VIEW
 download.file("https://www.nga.gov/collection-search-result/jcr:content/parmain/facetcomponent/parList/collectionsearchresu.pageSize__3000.pageNumber__1.json?onview=On_View&_=1554781398824",
